@@ -1,17 +1,17 @@
 public class converter {
 
-	public static int CtoF(int F){
+	public static double celsiusToFahrenheit(int F){
 		return F * (5 / 9.0) - 32;
 	}
 
 
-	public static int FtoC(int C){
+	public static double fahrenheitToCelsius(int C){
 		return C * (9 / 5.0) + 32;
 	}
 
 	public static void main(String[] args) {
-		System.out.println(CtoF(24));
-		System.out.println(FtoC(59));
+		System.out.println(celsiusToFahrenheit(24));
+		System.out.println(fahrenheitToCelsius(59));
 	}
 	
 }
